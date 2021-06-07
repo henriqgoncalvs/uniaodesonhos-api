@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "about",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "organisms.company-about"
+    },
+    "pillar_abouts": {
+      "collection": "pillar-about"
+    },
+    "company_abouts": {
+      "collection": "company-about"
+    }
+  }
+}

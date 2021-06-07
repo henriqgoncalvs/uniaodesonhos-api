@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_section_footers",
+  "info": {
+    "name": "footer",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "default": "Colocando sonhos no mundo."
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.logo"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

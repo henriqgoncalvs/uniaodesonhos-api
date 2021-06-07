@@ -16,6 +16,31 @@
       "type": "component",
       "repeatable": false,
       "component": "page-section.header"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-section.about"
+    },
+    "dreamsBeingDreamed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-section.dreams-being-dreamed"
+    },
+    "map": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-section.map"
+    },
+    "companiesDreamingTogether": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-section.companies-dreaming-together"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-section.footer"
     }
   }
 }

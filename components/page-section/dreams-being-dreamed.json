@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_dreams_being_dreameds",
+  "info": {
+    "name": "dreamsBeingDreamed",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Sonhos sendo sonhados"
+    },
+    "dreams": {
+      "collection": "dreams"
+    }
+  }
+}

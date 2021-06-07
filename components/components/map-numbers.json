@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_map_numbers",
+  "info": {
+    "name": "mapNumbers",
+    "icon": "sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "biginteger",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

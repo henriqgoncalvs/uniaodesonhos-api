@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pillar_abouts",
+  "info": {
+    "name": "pillarAbout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

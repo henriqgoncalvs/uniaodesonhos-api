@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_section_companies_dreaming_togethers",
+  "info": {
+    "name": "companiesDreamingTogether",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Sonhando sonhos juntos"
+    },
+    "companies": {
+      "collection": "companies"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

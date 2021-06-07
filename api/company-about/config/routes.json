@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/company-abouts",
+      "handler": "company-about.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/company-abouts/count",
+      "handler": "company-about.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/company-abouts/:id",
+      "handler": "company-about.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/company-abouts",
+      "handler": "company-about.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/company-abouts/:id",
+      "handler": "company-about.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/company-abouts/:id",
+      "handler": "company-about.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

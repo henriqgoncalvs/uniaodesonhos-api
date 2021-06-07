@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dream_categories",
+  "info": {
+    "name": "DreamCategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

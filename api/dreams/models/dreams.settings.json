@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dreams",
+  "info": {
+    "name": "Dreams",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "maxLength": 200,
+      "required": true
+    },
+    "companies": {
+      "collection": "companies"
+    },
+    "dream_categories": {
+      "collection": "dream-category"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
