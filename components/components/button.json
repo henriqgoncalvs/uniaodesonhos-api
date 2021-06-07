@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "name": "button",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
