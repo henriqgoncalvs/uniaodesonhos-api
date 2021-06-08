@@ -25,6 +25,14 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "dreams": {
+      "via": "companies",
+      "collection": "dreams"
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }

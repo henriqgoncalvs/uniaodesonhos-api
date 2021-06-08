@@ -22,7 +22,9 @@
       "required": true
     },
     "companies": {
-      "collection": "companies"
+      "via": "dreams",
+      "collection": "companies",
+      "dominant": true
     },
     "dream_categories": {
       "collection": "dream-category"
@@ -36,6 +38,25 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "fullDescription": {
+      "type": "text",
+      "required": true
+    },
+    "peopleDreaming": {
+      "type": "biginteger"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "totalValue": {
+      "type": "decimal"
+    },
+    "collectedValue": {
+      "type": "decimal"
     }
   }
 }

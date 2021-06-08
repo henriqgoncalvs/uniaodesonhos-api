@@ -2,15 +2,16 @@
   "collectionName": "components_components_map_numbers",
   "info": {
     "name": "mapNumbers",
-    "icon": "sitemap"
+    "icon": "sitemap",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "number": {
-      "type": "biginteger",
+    "description": {
+      "type": "string",
       "required": true
     },
-    "description": {
+    "number": {
       "type": "string",
       "required": true
     }
