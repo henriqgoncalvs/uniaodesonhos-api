@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_donations",
+  "info": {
+    "name": "donation",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

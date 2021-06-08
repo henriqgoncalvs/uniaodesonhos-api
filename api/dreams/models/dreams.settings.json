@@ -57,6 +57,11 @@
     },
     "collectedValue": {
       "type": "decimal"
+    },
+    "donation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.donation"
     }
   }
 }
