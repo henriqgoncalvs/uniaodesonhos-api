@@ -29,7 +29,7 @@
     "dream_categories": {
       "collection": "dream-category"
     },
-    "image": {
+    "thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -62,6 +62,17 @@
       "type": "component",
       "repeatable": true,
       "component": "components.donation"
+    },
+    "presentationMedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }

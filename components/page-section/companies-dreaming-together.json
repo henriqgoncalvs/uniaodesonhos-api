@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_companies_dreaming_togethers",
   "info": {
     "name": "companiesDreamingTogether",
-    "icon": "code-branch"
+    "icon": "code-branch",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -23,6 +24,16 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "mainCompanies": {
+      "type": "string",
+      "required": true,
+      "default": "Quem sonha junto"
+    },
+    "secondaryTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Apoiadores"
     }
   }
 }
