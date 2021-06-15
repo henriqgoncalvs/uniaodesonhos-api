@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_organisms_company_categories",
+  "info": {
+    "name": "companyCategory",
+    "icon": "business-time"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Apoiadores"
+    },
+    "companies": {
+      "collection": "companies"
+    }
+  }
+}

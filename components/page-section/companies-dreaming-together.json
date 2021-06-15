@@ -12,9 +12,6 @@
       "required": true,
       "default": "Sonhando sonhos juntos"
     },
-    "companies": {
-      "collection": "companies"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -25,15 +22,10 @@
       "required": true,
       "pluginOptions": {}
     },
-    "mainCompanies": {
-      "type": "string",
-      "required": true,
-      "default": "Quem sonha junto"
-    },
-    "secondaryTitle": {
-      "type": "string",
-      "required": true,
-      "default": "Apoiadores"
+    "companyCategory": {
+      "type": "component",
+      "repeatable": true,
+      "component": "organisms.company-category"
     }
   }
 }
