@@ -39,10 +39,6 @@
       "required": true,
       "pluginOptions": {}
     },
-    "fullDescription": {
-      "type": "text",
-      "required": true
-    },
     "peopleDreaming": {
       "type": "biginteger"
     },
@@ -73,6 +69,9 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "fullDescription": {
+      "type": "richtext"
     }
   }
 }

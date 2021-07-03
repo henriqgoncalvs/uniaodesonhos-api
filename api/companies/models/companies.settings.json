@@ -33,6 +33,9 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
